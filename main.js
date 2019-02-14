@@ -36,7 +36,7 @@ function buyCrab(){
         var crab_cost = Math.floor(10 * Math.pow(1.1,num_crabs));
 
         if(num_salt >= crab_cost){
-            crab_cost = crab_cost + 1;
+            num_crabs = num_crabs + 1;
             num_salt = num_salt - crab_cost;
             document.getElementById('num_crabs').innerHTML = "Crabs: " + num_crabs;
             document.getElementById('num_salt').innerHTML = "Salt: " + num_salt + "g";
