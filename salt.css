@@ -1,0 +1,22 @@
+.salt {
+  border: 2px solid pink;
+  background-color:pink;
+  color:white;
+}
+
+.salt:hover {
+  background-color:#ffe9ec;
+  color:black;
+}
+
+.salt_section {
+  
+}
+
+.salt_stats {
+
+}
+
+.salt_stats:hover {
+
+}

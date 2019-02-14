@@ -1,0 +1,22 @@
+.crab {
+  border: 2px solid red;
+  background-color:red;
+  color:white;
+}
+
+.crab:hover {
+  background-color:#ff9999;
+  color:black;
+}
+
+.crab_section {
+
+}
+
+.crab_stats {
+
+}
+
+.crab_stats:hover {
+
+}
