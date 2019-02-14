@@ -1,3 +1,5 @@
+/*Production, Quantity and Cost Style*/
+
 #salt_water_per_sec, #salt_per_sec {
   color:#0616c9;
 }
@@ -9,6 +11,8 @@
 #turtle_cost, #crab_cost {
   color:green;
 }
+
+/*Salt Water Style*/
 
 .salt_water {
   border: 2px solid darkBlue;
@@ -33,7 +37,7 @@
 
 }
 
-//Crab Style
+/*Crab Style*/
 
 .crab {
   border: 2px solid red;
@@ -58,7 +62,7 @@
 
 }
 
-//Stuff
+/*Dev Powers*/
 
 button {
   border-radius:16px;
