@@ -25,8 +25,7 @@ function buyTurtle(){
             num_salt_water = num_salt_water - turtle_cost;
             document.getElementById('num_turtles').innerHTML = "Turtles: " + num_turtles;
             document.getElementById('num_salt_water').innerHTML = "Salt Water: " + num_salt_water + "ml";
-            var salt_water_per_sec = num_turtles - num_crabs;
-            document.getElementById('salt_water_per_sec').innerHTML = "Per Sec: " + salt_water_per_sec + "ml/s"
+            document.getElementById('salt_water_per_sec').innerHTML = "Per Sec: " + (num_turtles - num_crabs) + "ml/s"
         }
 
     var next_cost = Math.floor(10 * Math.pow(1.1,num_turtles));
@@ -42,6 +41,7 @@ function buyCrab(){
             document.getElementById('num_crabs').innerHTML = "Crabs: " + num_crabs;
             document.getElementById('num_salt').innerHTML = "Salt: " + num_salt + "g";
             document.getElementById('salt_per_sec').innerHTML = "Per Sec: " + num_crabs + "g/s"
+            document.getElementById('salt_water_per_sec').innerHTML = "Per Sec: " + (num_turtles - num_crabs) + "ml/s"
         }
 
     var next_cost = Math.floor(10 * Math.pow(1.1,num_crabs));
