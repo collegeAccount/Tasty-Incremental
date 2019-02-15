@@ -64,7 +64,28 @@
 
 /*Turtle Style*/
 
+.turtle {
+  border: 2px solid darkGreen;
+  background-color:darkGreen;
+  color:white;
+}
 
+.turtle:hover {
+  background-color:lightGreen;
+  color:black;
+}
+
+.turtle_section {
+  
+}
+
+.turtle_stats {
+
+}
+
+.turtle_stats:hover {
+
+}
 
 /*Crab Style*/
 
