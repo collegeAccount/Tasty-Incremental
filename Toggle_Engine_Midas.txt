@@ -1,4 +1,6 @@
-<button onclick="getSaltWater(200000), dryWater(100000)" class="God">Dev Powers</button>
+<div class="dev_powers">
+  <button onclick="getSaltWater(200000), dryWater(100000)" class="God">Dev Powers</button>
+</div>
 
 .God {
   border: 2px solid gray;
@@ -9,4 +11,10 @@
 .God:hover {
   background-color:white;
   color:black;
+}
+
+.dev_powers {
+  border:2px dotted black;
+  width:100px;
+  height:30px;
 }
