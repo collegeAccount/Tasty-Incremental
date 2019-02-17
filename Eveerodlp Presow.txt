@@ -1,0 +1,12 @@
+<button onclick="getSaltWater(200000), dryWater(100000)" class="God">Dev Powers</button>
+
+.God {
+  border: 2px solid gray;
+  color:white;
+  background-color:black;
+}
+
+.God:hover {
+  background-color:white;
+  color:black;
+}
