@@ -1,14 +1,14 @@
 /*Production, Quantity and Cost Style*/
 
-#salt_water_per_sec, #salt_per_sec, #turtle_salt_water_per_sec, #crab_salt_per_sec {
+#salt_water_per_sec, #salt_per_sec, #turtle_salt_water_per_sec, #crab_salt_per_sec, #birb_peppercorns_per_sec {
   color:#0616c9;
 }
 
-#num_salt_water, #num_salt, #num_turtles, #num_crabs {
+#num_salt_water, #num_salt, #num_turtles, #num_crabs, #num_birbs {
   color:#9b870c;
 }
 
-#turtle_cost, #crab_cost {
+#turtle_cost, #crab_cost, #birb_cost {
   color:green;
 }
 
@@ -29,6 +29,14 @@
   height:90px;
   float:left;
 }
+
+/*Better Producers Section Box*/
+
+.better_producers {
+  border:2px dotted black;
+  width:375px;
+  height:90px;
+  float:left;
 
 /*Salt Water Style*/
 
