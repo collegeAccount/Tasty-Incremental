@@ -1,14 +1,14 @@
 /*Production, Quantity and Cost Style*/
 
-#salt_water_per_sec, #salt_per_sec, #turtle_salt_water_per_sec, #crab_salt_per_sec, #birb_peppercorn_per_sec {
+#salt_water_per_sec, #salt_per_sec, #peppercorn_per_sec, #ginger_per_sec, #turtle_salt_water_per_sec, #crab_salt_per_sec, #birb_peppercorn_per_sec, #mole_ginger_per_sec {
   color:#0616c9;
 }
 
-#num_salt_water, #num_salt, #num_turtles, #num_crabs, #num_birbs {
+#num_salt_water, #num_salt, #num_peppercorns, #num_ginger, #num_turtles, #num_crabs, #num_birbs, #num_moles{
   color:#9b870c;
 }
 
-#turtle_cost, #crab_cost, #birb_cost {
+#turtle_cost, #crab_cost, #birb_cost, #mole_cost {
   color:green;
 }
 
@@ -134,6 +134,27 @@
 }
 
 .birb:hover + .birb_stats {
+  display:inline;
+}
+
+/*Mole Style*/
+
+.mole {
+ border: 2px solid;
+  background-color:;
+  color:white;
+}
+
+.mole:hover {
+  background-color:;
+  color:black;
+}
+
+.mole_stats {
+  display:none;
+}
+
+.mole:hover + .mole_stats {
   display:inline;
 }
 
