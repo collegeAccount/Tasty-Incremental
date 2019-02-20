@@ -1,5 +1,6 @@
 var num_salt_water = 0;
 var num_salt = 0;
+var num_peppercorns = 0;
 var num_turtles = 0;
 var num_crabs = 0;
 var num_birbs = 0;
@@ -71,7 +72,7 @@ function buyBirb(){
         }
 
     var next_cost = Math.floor(10 * Math.pow(1.1,num_birbs));
-    document.getElementById('birb_cost').innerHTML = "Cost: " + next_cost + "g salt" + ", " + next_cost + "ml water";
+    document.getElementById('birb_cost').innerHTML = "Cost: " + next_cost + "ml water" + ", " + next_cost + "g salt";
 }
 
 window.setInterval(function(){
