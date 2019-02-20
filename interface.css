@@ -37,6 +37,7 @@
   width:375px;
   height:90px;
   float:left;
+}
 
 /*Salt Water Style*/
 
@@ -102,7 +103,28 @@
   display:none;
 }
 
-.crab:hover + .crab_stats{
+.crab:hover + .crab_stats {
+  display:inline;
+}
+  
+/*Birb Style*/
+  
+.birb {
+  border: 2px solid;
+  background-color:;
+  color:white;
+}
+
+.birb:hover {
+  background-color:;
+  color:black;
+}
+
+.birb_stats {
+  display:none;
+}
+
+.birb:hover + .birb_stats {
   display:inline;
 }
 
