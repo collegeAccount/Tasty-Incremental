@@ -1,9 +1,11 @@
 var num_salt_water = 0;
 var num_salt = 0;
 var num_peppercorns = 0;
+var num_ginger = 0;
 var num_turtles = 0;
 var num_crabs = 0;
 var num_birbs = 0;
+var num_moles = 0;
 
 function getSaltWater(input){
     num_salt_water = num_salt_water + input;
@@ -22,6 +24,11 @@ function dryWater(input){
 function getPepperCorn(input){
     num_peppercorns = num_peppercorns + input;
     document.getElementById("num_peppercorns").innerHTML = "Peppercorns: " + num_peppercorns + "pc";
+}
+
+function getGinger(input){
+    num_ginger = num_ginger + input;
+    document.getElementById("num_ginger").innerHTML = "Ginger: " + num_ginger + "pc"
 }
 
 function buyTurtle(){
@@ -75,6 +82,22 @@ function buyBirb(){
     document.getElementById('birb_cost').innerHTML = "Cost: " + next_cost + "ml water" + ", " + next_cost + "g salt";
 }
 
+function buyMole(){
+        var mole_cost = Math.floor(20 * Math.pow(1.1,num_moles));
+
+        if(num_peppercorns >= mole_cost){
+            num_moles = num_moles + 1;
+            num_peppercorns = num_peppercorns - mole_cost;
+            document.getElementById('num_moles').innerHTML = "Moles: " + num_moles;
+            document.getElementById('num_peppercorns').innerHTML = "Peppercorns: " + num_peppercorns + "pc";
+            document.getElementById('ginger_per_sec').innerHTML = "Per Sec: " + num_moles + "pc/s"
+            document.getElementById('mole_ginger_per_sec').innerHTML = "Per Sec: " + num_moles + "pc/s"
+        }
+
+    var next_cost = Math.floor(20 * Math.pow(1.1,num_moles));
+    document.getElementById('mole_cost').innerHTML = "Cost: " + next_cost + "pc peppercorns";
+}
+
 window.setInterval(function(){
     getSaltWater(num_turtles);
 }, 1000);
@@ -85,4 +108,8 @@ window.setInterval(function(){
 
 window.setInterval(function(){
     getPepperCorn(num_birbs);
+}, 1000);
+
+window.setInterval(function(){
+    getGinger(num_moles);
 }, 1000);
