@@ -1,3 +1,3 @@
-# Dick Incremental
+# Tasty Incremental
 
-Taste All The Dicks!
+Taste All The Flavors!
