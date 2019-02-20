@@ -30,11 +30,20 @@
   float:left;
 }
 
+/*Better Resources Section Box*/
+
+.better_resources {
+  border:2px dotted black;
+  width:350px;
+  height:90px;
+  float:left;
+}
+
 /*Better Producers Section Box*/
 
 .better_producers {
   border:2px dotted black;
-  width:375px;
+  width:385px;
   height:90px;
   float:left;
 }
