@@ -21,7 +21,7 @@ function dryWater(input){
 
 function getPepperCorn(input){
     num_peppercorns = num_peppercorns + input;
-    document.getElementById("num_peppercorns").innerHTML = "Peppercorns: " + num_peppercorns + "g";
+    document.getElementById("num_peppercorns").innerHTML = "Peppercorns: " + num_peppercorns + "pc";
 }
 
 function buyTurtle(){
@@ -67,8 +67,8 @@ function buyBirb(){
             document.getElementById('num_birbs').innerHTML = "Birbs: " + num_birbs;
             document.getElementById('num_salt').innerHTML = "Salt: " + num_salt + "g";
             document.getElementById('num_salt_water').innerHTML = "Salt Water: " + num_salt_water + "ml";
-            document.getElementById('peppercorns_per_sec').innerHTML = "Per Sec: " + num_birbs + "g/s"
-            document.getElementById('birb_peppercorns_per_sec').innerHTML = "Per Sec: " + num_birbs + "g/s"
+            document.getElementById('peppercorns_per_sec').innerHTML = "Per Sec: " + num_birbs + "pc/s"
+            document.getElementById('birb_peppercorns_per_sec').innerHTML = "Per Sec: " + num_birbs + "pc/s"
         }
 
     var next_cost = Math.floor(10 * Math.pow(1.1,num_birbs));
