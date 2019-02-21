@@ -95,7 +95,7 @@ function buyMole(){
         }
 
     var next_cost = Math.floor(20 * Math.pow(1.1,num_moles));
-    document.getElementById('mole_cost').innerHTML = "Cost: " + next_cost + "pc peppercorns";
+    document.getElementById('mole_cost').innerHTML = "Cost: " + next_cost + "pc pepper";
 }
 
 window.setInterval(function(){
