@@ -88,11 +88,11 @@
 }
 
 .turtle_stats {
-  display:none;
+  font-style:normal;
 }
 
 .turtle:hover + .turtle_stats {
-  display:inline;
+  font-style:italic;
 }
 
 /*Crab Style*/
@@ -109,11 +109,11 @@
 }
 
 .crab_stats {
-  display:none;
+  font-style:normal;
 }
 
 .crab:hover + .crab_stats {
-  display:inline;
+  font-style:italic;
 }
   
 /*Birb Style*/
@@ -130,11 +130,11 @@
 }
 
 .birb_stats {
-  display:none;
+  font-style:normal;
 }
 
 .birb:hover + .birb_stats {
-  display:inline;
+  font-style:italic;
 }
 
 /*Mole Style*/
@@ -151,11 +151,11 @@
 }
 
 .mole_stats {
-  display:none;
+  font-style:normal;
 }
 
 .mole:hover + .mole_stats {
-  display:inline;
+  font-style:italic;
 }
 
 /*Dev Powers and Misc*/
