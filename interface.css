@@ -66,7 +66,7 @@
   display:inline;
 }
 
-.salt_water + .salt_water_stats {
+.salt_water:hover + .salt_water_stats {
   font-style:italic;
 }
 
@@ -88,7 +88,7 @@
   display:inline;
 }
 
-.salt + .salt_stats {
+.salt:hover + .salt_stats {
   font-style:italic;
 }
 
