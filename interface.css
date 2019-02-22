@@ -61,6 +61,15 @@
   color:black;
 }
 
+.salt_water_stats {
+  font-syle:normal;
+  display:inline;
+}
+
+.salt_water + .salt_water_stats {
+  font-style:italic;
+}
+
 /*Salt Style*/
 
 .salt {
@@ -72,6 +81,15 @@
 .salt:hover {
   background-color:#ffe9ec;
   color:black;
+}
+
+.salt_stats {
+  font-syle:normal;
+  display:inline;
+}
+
+.salt + .salt_stats {
+  font-style:italic;
 }
 
 /*Turtle Style*/
