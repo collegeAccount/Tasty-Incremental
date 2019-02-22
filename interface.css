@@ -54,13 +54,11 @@
   border: 2px solid darkBlue;
   background-color:darkBlue;
   color:white;
-  font-style:normal;
 }
 
 .salt_water:hover {
   background-color:lightBlue;
   color:black;
-  font-style:italic;
 }
 
 /*Salt Style*/
@@ -69,13 +67,11 @@
   border: 2px solid pink;
   background-color:pink;
   color:white;
-  font-style:normal;
 }
 
 .salt:hover {
   background-color:#ffe9ec;
   color:black;
-  font-style:italic;
 }
 
 /*Turtle Style*/
