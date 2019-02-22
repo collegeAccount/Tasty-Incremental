@@ -139,13 +139,13 @@
 /*Birb Style*/
   
 .birb {
-  border: 2px solid yellow;
-  background-color:yellow;
+  border: 2px solid #808000;
+  background-color:#808000;
   color:white;
 }
 
 .birb:hover {
-  background-color:#ffffe0;
+  background-color:yellow;
   color:black;
 }
 
