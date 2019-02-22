@@ -79,7 +79,7 @@
 }
 
 .salt:hover {
-  background-color:#ffe9ec;
+  background-color:#ff69b4;
   color:black;
 }
 
@@ -139,8 +139,8 @@
 /*Birb Style*/
   
 .birb {
-  border: 2px solid;
-  background-color:;
+  border: 2px solid lightblue;
+  background-color:lightblue;
   color:white;
 }
 
