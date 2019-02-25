@@ -36,7 +36,7 @@ function getGinger(input){
 //Differences
 
 function getBasicDifference(){
-    var salt_water_difference = turtle_salt_water_per_sec - crab_salt_per_sec
+    var salt_water_difference =  crab_salt_per_sec - turtle_salt_water_per_sec
     document.getElementById("difference").innerHTML = "[" + salt_water_difference + "]"
 }
 
