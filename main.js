@@ -7,6 +7,8 @@ var num_crabs = 0;
 var num_birbs = 0;
 var num_moles = 0;
 
+//Resources
+
 function getSaltWater(input){
     num_salt_water = num_salt_water + input;
     document.getElementById("num_salt_water").innerHTML = "Salt Water: " + num_salt_water + "ml";
@@ -30,6 +32,15 @@ function getGinger(input){
     num_ginger = num_ginger + input;
     document.getElementById("num_ginger").innerHTML = "Ginger: " + num_ginger + "pc"
 }
+
+//Differences
+
+function getBasicDifference(){
+    var salt_water_difference = turtle_salt_water_per_sec - crab_salt_per_sec
+    document.getElementById("difference").innerHTML = "[" + salt_water_difference + "]"
+}
+
+//Producers
 
 function buyTurtle(){
         var turtle_cost = Math.floor(10 * Math.pow(1.1,num_turtles));
@@ -97,6 +108,8 @@ function buyMole(){
     var next_cost = Math.floor(20 * Math.pow(1.1,num_moles));
     document.getElementById('mole_cost').innerHTML = "Cost: " + next_cost + "pc pepper";
 }
+
+//Increments
 
 window.setInterval(function(){
     getSaltWater(num_turtles);
