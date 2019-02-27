@@ -43,7 +43,7 @@ function getBasicDifference(){
 //Producers
 
 function buyTurtle(){
-        var turtle_cost = Math.floor(10 * Math.pow(1.1,num_turtles));
+        var turtle_cost = 10 + num_turtles;
 
         if(num_salt_water >= turtle_cost){
             num_turtles = num_turtles + 1;
@@ -54,12 +54,12 @@ function buyTurtle(){
             document.getElementById('turtle_salt_water_per_sec').innerHTML = "Per Sec: " + num_turtles + "ml/s"
         }
 
-    var next_cost = Math.floor(10 * Math.pow(1.1,num_turtles));
+    var next_cost = 10 + num_turtles;
     document.getElementById('turtle_cost').innerHTML = "Cost: " + next_cost + "ml water";
 }
 
 function buyCrab(){
-        var crab_cost = Math.floor(10 * Math.pow(1.1,num_crabs));
+        var crab_cost = 10 + num_crabs;
 
         if(num_salt >= crab_cost){
             num_crabs = num_crabs + 1;
@@ -71,12 +71,12 @@ function buyCrab(){
             document.getElementById('crab_salt_per_sec').innerHTML = "Per Sec: " + num_crabs + "g/s"
         }
 
-    var next_cost = Math.floor(10 * Math.pow(1.1,num_crabs));
+    var next_cost = 10 + num_crabs;
     document.getElementById('crab_cost').innerHTML = "Cost: " + next_cost + "g salt";
 }
 
 function buyBirb(){
-        var birb_cost = Math.floor(20 * Math.pow(1.1,num_birbs));
+        var birb_cost = 20 + num_birbs);
 
         if(num_salt >= birb_cost && num_salt_water >= birb_cost){
             num_birbs = num_birbs + 1;
@@ -89,12 +89,12 @@ function buyBirb(){
             document.getElementById('birb_peppercorns_per_sec').innerHTML = "Per Sec: " + num_birbs + "pc/s"
         }
 
-    var next_cost = Math.floor(20 * Math.pow(1.1,num_birbs));
+    var next_cost = 20 + num_birbs;
     document.getElementById('birb_cost').innerHTML = "Cost: " + next_cost + "ml water" + ", " + next_cost + "g salt";
 }
 
 function buyMole(){
-        var mole_cost = Math.floor(20 * Math.pow(1.1,num_moles));
+        var mole_cost = 20 + num_moles;
 
         if(num_peppercorns >= mole_cost){
             num_moles = num_moles + 1;
@@ -105,7 +105,7 @@ function buyMole(){
             document.getElementById('mole_ginger_per_sec').innerHTML = "Per Sec: " + num_moles + "pc/s"
         }
 
-    var next_cost = Math.floor(20 * Math.pow(1.1,num_moles));
+    var next_cost = 20 + num_moles;
     document.getElementById('mole_cost').innerHTML = "Cost: " + next_cost + "pc pepper";
 }
 
